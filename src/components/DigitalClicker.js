@@ -11,8 +11,9 @@ class DigitalClicker extends Component {
   }
   
   clickHandler = () => {
+          let newState = timesClicked + 1
+
     this.setState({
-      let newState = timesClicked + 1
       timesClicked: newState
     })
   }
